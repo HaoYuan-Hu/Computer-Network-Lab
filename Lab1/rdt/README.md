@@ -43,7 +43,9 @@
 
 3、[运输层协议:(2)Go-Back-N 协议](https://blog.csdn.net/lpprince/article/details/17470583)
 
-3、教学PPT 《02_Mac_Error_SlidingWindow》
+4、[校验和计算方法](https://blog.csdn.net/yaoxingshuai/article/details/51063546)
 
-4、Lab1 指导文档 《Lab1 - Reliable Data Transport Protocol-1》
+5、教学PPT 《02_Mac_Error_SlidingWindow》
+
+6、Lab1 指导文档 《Lab1 - Reliable Data Transport Protocol-1》
 
