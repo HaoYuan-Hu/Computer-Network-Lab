@@ -30,19 +30,4 @@ struct packet {
     char data[RDT_PKTSIZE];
 };
 
-/* ============= HHY 新增加的 =============== */
-
-/* 定义发送的 packet 类型 */
-typedef enum {DATA = 0, ACK, NAK} Packet_Kind; 
-
-/* 定义最大窗口数 */
-#define MAX_SEQ 10
-
-/* 定义超时时间 */
-#define TIME_OUT 0.3
-
-/* 定义一个全局工具函数 INC */
-#define inc(k) if(k < MAX_SEQ) k = k + 1; else k = 0
-
-
 #endif  /* _RDT_STRUCT_H_ */
